@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz </title>
+    <link rel="stylesheet" href="./css/quiz.css">
+</head>
+
+<body>
+    <h1 style="color: #fff; text-align: center; text-transform: uppercase; font-size: 50px; text-decoration: underline;">quiz java script</h1>
+
+    <div class="container">
+        <div class="box">
+            <h3 id="ques"></h3>
+
+            <div class="row">
+                <input type="radio" name="option" value="a" class="options" id="option1">
+                <label for="option1"> option 1</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" name="option" value="b" class="options" id="option2">
+                <label for="option2"> option 2</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" name="option" value="c" class="options" id="option3">
+                <label for="option3"> option 3</label>
+            </div>
+
+            <div class="row">
+                <input type="radio" name="option" value="d" class="options" id="option4">
+                <label for="option4"> option 4</label>
+            </div>
+            <div>
+                <button class="submitBtn" onclick="submitQuiz()">submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./javaScript/quiz.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+figure .i{
+    width: 100%;
+    height: 50vh;
+}
+figure img{
+    width: 100%;
+}
+.img{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.img .imgZoomIn:hover img{
+    border: 1px solid;
+    padding: 5px;
+ transform: scale(1.2);
+   
+}
+
+.img .imgZoomIn img{
+    transform: scale(1);
+    transition:  0.8s ease-in-out;   
+   }
+
+
+   /* 1234567898765421234567898765421 */
+   .container h1{
+    text-align: center;
+    margin-left: 24%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    background-color: blue;
+    color: #fff;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+   }
+
+   .container h2{
+
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top:  5px;
+    margin-left: 24%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    background-color: blue;
+    color: #fff;
+    width: 50%;
+   }
+
+   .formGroup{
+
+    text-align: center;
+   }
+   .formGroup textarea{
+    height: 50vh;
+    width: 50%;
+   }

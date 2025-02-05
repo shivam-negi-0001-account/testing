@@ -1,0 +1,55 @@
+* {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    /* animation-name: bgColor;
+    animation-delay: inherit; */
+    /* animation-iteration-count: infinite; */
+    /* animation-duration: 8s; */
+    /* animation-timing-function: calc(10s); */
+}
+
+/* @keyframes bgColor {
+    0%{
+        background-color: blue;
+    }
+
+    30%{
+        background-color: coral;
+    }
+
+    60%{
+        background-color: green;
+    }
+
+    80%{
+        background-color: gold;
+    }
+
+    100%{
+        background-color: cornflowerblue;
+    }
+} */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    margin: 20px 20px;
+    height: 70px;
+    background-color: #fff;
+    border: 3px solid #000;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}

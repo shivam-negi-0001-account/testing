@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inputForm input {
+            padding: 5px 30px;
+            margin-top: 15px;
+            border-radius: 8px;
+            outline: none;
+            box-shadow: none;
+            text-transform: capitalize;
+        }
+
+        .inputForm label {
+            text-transform: uppercase;
+        }
+
+        .inputForm button {
+            border: 1px solid;
+            padding: 4px 30px;
+            background-color: violet;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-left: 100px;
+            font-family: monospace;
+            border-radius: 9px;
+
+        }
+
+        .btnClick {
+            border: 1px solid;
+            padding: 4px 25px;
+            background-color: blueviolet;
+            color: #fff;
+            border-radius: 9px;
+            font-size: 20px;
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .formInput input{
+            padding: 5px 30px;
+            margin-top: 15px;
+            border-radius: 8px;
+            outline: none;
+            box-shadow: none;
+            text-transform: capitalize;
+        }
+        .pera{
+            background-color: violet;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: capitalize;
+            width: 200px;
+            text-align: center;
+        }
+        .formInput label {
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <form class="inputForm">
+        <label for="#"> name..</label>
+        <input type="text" id="nameInput" value="">
+        <br>
+
+        <label for="#">city....</label>
+        <input type="text" id="cityInput">
+        <br>
+
+        <label for="#">email</label>
+        <input type="email" id="emailInput">
+        <br>
+
+        <button id="submitBtn">submit</button>
+        <hr>
+        <div id="userData">
+
+        </div>
+    </form> -->
+
+    <form class="formInput">
+       
+        <label for="#">click number</label>
+        <input type="number" name="#" id="inputNumberOne" placeholder="Enter Number">
+
+       <br>
+       <label for="#">click number</label>
+        <input type="number" name="#" id="inputNumberTwo"  placeholder="Enter Number">
+    </form>
+
+
+    <div>
+        <button class="btnClick" id="addBtn" onclick="Add()">add</button>
+    </div>
+    <div>
+        <button class="btnClick" id="btn2" onclick="substrict()">substrict</button>
+    </div>
+    <div>
+        <button class="btnClick" id="btn3" onclick="divid()">divid</button>
+    </div>
+    <div>
+        <button class="btnClick" id="btn4" onclick="multiply()">multiply</button>
+    </div>
+    <p class="pera" id="sumNumberOne"></p>
+    <p class="pera" id="sumNumberTwo"></p>
+    <p class="pera" id="sumNumberThree"></p>
+    <p class="pera" id="sumNumberFour"></p>
+
+
+
+
+    <label for="#">click number</label>
+    <input type="number" name="#" id="tableInputNumber"  placeholder="Enter Number">
+
+    <div>
+        <button class="btnClick" id="btn" onclick="table()">click</button>
+        <p id="display"></p>
+    </div>
+
+    <script src="./javaScript/form.js"></script>
+</body>
+
+</html>

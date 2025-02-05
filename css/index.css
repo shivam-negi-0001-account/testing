@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+h1{
+    color: yellow !important;
+}
+/* .d{
+    width: 300px;
+    height: 300vh;
+    background-color: yellowgreen;
+    border: 2px solid ;
+}
+ h1{
+    position: sticky;
+    top: 20px;
+ } */
+
+ /* :root{
+    font-size: 60px;
+ }
+ p{
+    font-size: 1rem;
+    font-size: 3em;
+ }
+ .outer{
+    font-size: 12px;
+ } */
+
